@@ -22,6 +22,8 @@ public class UserController {
     @Autowired
     private Resource resource;
 
+    public void test(){}
+
 
     @GetMapping("properties")
     public String properties(){
